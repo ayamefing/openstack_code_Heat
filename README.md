@@ -1,5 +1,11 @@
 OpenStack Heat 源码分析
 ============
+> 原文：[OpenStack Heat 源码分析](https://github.com/yeasy/openstack_code_Heat)
+
+> 作者：[yeasy](https://github.com/yeasy)
+
+> 版本：0.2: 2014-08-18
+
 [Heat](https://wiki.openstack.org/wiki/Heat) 是 OpenStack 项目中负责部署、协调资源的平台工具，它允许用户提前写好一个模板文件，然后通过 Heat 引擎来启动、停止所定义的资源。
 
 本书将剖析 Heat 组件（服务端）的代码。
